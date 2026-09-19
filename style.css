@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('fonts/Crazy Blocks.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+h1 {
+  font-family: 'MyCustomFont', sans-serif;
+  font-size: 48px;
+  color: #222;
+}
